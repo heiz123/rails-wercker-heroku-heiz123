@@ -1,4 +1,6 @@
 box: wercker/default
+services:
+    - wercker/postgresql
 build:
     steps:
       - bundle-install
